@@ -137,12 +137,12 @@ search.addWidgets([instantsearch.widgets.searchBox({
   transformItems: function transformItems(items) {
     return items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), {}, {
-        days_ago: new Date(item.date).toLocaleDateString()
+        date_str: new Date(item.date).toLocaleDateString()
       });
     });
   },
   templates: {
-    item: "\n<div>\n  <div class=\"hit-name\">{{#helpers.highlight}}{ \"attribute\": \"name\" }{{/helpers.highlight}}</div>\n  <div class=\"hit-location\">{{#helpers.highlight}}{ \"attribute\": \"location\" }{{/helpers.highlight}}</div>  \n  <div class=\"hit-date\">{{days_ago}}</div>  \n</div>\n"
+    item: "\n<div>\n  <div class=\"hit-name\">{{#helpers.highlight}}{ \"attribute\": \"name\" }{{/helpers.highlight}}</div>\n  <div class=\"hit-location\">{{#helpers.highlight}}{ \"attribute\": \"location\" }{{/helpers.highlight}}</div>  \n  <div class=\"hit-date\">{{date_str}}</div>  \n</div>\n"
   }
 }), instantsearch.widgets.pagination({
   container: '#pagination'
@@ -194,7 +194,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "32985" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33929" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -17,14 +17,14 @@ search.addWidgets([
   instantsearch.widgets.hits({
     container: '#hits',
     transformItems: items => items.map(item => ({ ...item,
-        days_ago: (new Date(item.date)).toLocaleDateString(),
+        date_str: (new Date(item.date)).toLocaleDateString(),
     })),
     templates: {
       item: `
 <div>
   <div class="hit-name">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</div>
   <div class="hit-location">{{#helpers.highlight}}{ "attribute": "location" }{{/helpers.highlight}}</div>  
-  <div class="hit-date">{{days_ago}}</div>  
+  <div class="hit-date">{{date_str}}</div>  
 </div>
 `,
     },
