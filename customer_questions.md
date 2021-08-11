@@ -9,7 +9,7 @@ Records
 Indexing
 I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking."
 Cheers, George
-``
+```
 
 
 [Answered from a post-sale POV]
@@ -25,13 +25,17 @@ When a search experience provides results, it’s important that those results a
 For more information, please see these links:
 
 https://www.algolia.com/doc/faq/basics/what-is-a-record/
+
 https://www.algolia.com/doc/faq/basics/what-is-an-index/
-​​https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/
+
+https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/
 
 Regards
 
 Ben
+
 Senior Solutions Engineer, Algolia
+
 +61 499 885 987 | ben.chad@algolia.com
 
 # Question 2:
@@ -55,13 +59,17 @@ To make your development simpler, have you thought of using the API? You might f
 I know you generally script in PHP. For more information, please see these links:
 
 https://www.algolia.com/doc/api-client/getting-started/what-is-the-api-client/php/?client=php
+
 https://www.algolia.com/doc/api-reference/api-methods/clear-objects/
+
 https://www.algolia.com/doc/api-reference/api-methods/delete-index/
 
 Regards
 
 Ben
+
 Senior Solutions Engineer, Algolia
+
 +61 499 885 987 | ben.chad@algolia.com
 
 ## Question 3:
@@ -89,6 +97,8 @@ I’d like to spend time discovering the requirements you and the team at Acquia
 Regards
 
 Ben
+
 Senior Solutions Engineer, Algolia
+
 +61 499 885 987 | ben.chad@algolia.com
 
