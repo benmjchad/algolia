@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/app.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"app.d930d8e6.css","sourceRoot":"..","sourcesContent":["body { font-family: sans-serif; padding: 1em; }\n.ais-SearchBox { margin: 1em 0; }\n.ais-Pagination { margin-top: 1em }\n\n\n"]}
